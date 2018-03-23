@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/totalContainer"
+    tools:context="edu.fsu.cs.mobile.safereader.MainActivity">
+
+        <TextView
+        android:id="@+id/moby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moby Dick: Chapter 1"
+            android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/expectations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Great Expectations: Chapter 1"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/egg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Egg"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/scream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Have No Mouth, and I Must Scream"
+        android:layout_weight="1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/heart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Tell-Tale Heart"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lottery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Lottery"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/magi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Gift of the Magi"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/jekyll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Jekyll and Mr. Hide: Chapter 1"
+        android:layout_weight="1"
+        android:textSize="24sp" />
+</LinearLayout>
